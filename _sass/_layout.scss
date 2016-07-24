@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-	//background-color: #3D9970;
+	background-color: #415A77;
     //border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -12,6 +12,7 @@
 }
 
 .site-title {
+    font-color: #E0E1DD;
     font-size: 20px;
     font-weight: 300;
     line-height: 56px;
@@ -21,7 +22,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #E0E1DD;
     }
 }
 
@@ -34,7 +35,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #E0E1DD;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -47,8 +48,8 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: #415A77;
+        //border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
@@ -66,7 +67,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: #E0E1DD;
                 }
             }
         }
@@ -101,6 +102,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #E0E1DD;
 }
 
 .footer-heading {
@@ -195,6 +197,57 @@
     font-size: 24px;
 }
 
+/* INDEX page */
+.full-page {
+    height: 100vh;
+}
+
+#intro-banner {
+    height: 400px;
+    width: auto;
+    background-color: #415A77;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Cornerstone;
+    src: url(/fonts/Cornerstone.ttf);
+}
+
+.intro-header {
+    padding-top: 50px;
+    font-family: Cornerstone;
+    font-size: 40px;
+    color: #E0E1DD;
+}
+
+.intro-text {
+    font-family: Cornerstone;
+    font-size: 14px;
+    color: #E0E1DD;
+}
+
+.intro-post-header {
+    padding-top: 25px;
+    font-family: Cornerstone;
+    font-size: 25px;
+    text-align: center;
+    color: #415A77;
+}
+
+#intro-about {
+    padding-top: 25px;
+    height: 200px;
+    width: auto;
+    background-color: #0D1B2A;
+    text-align: center;
+}
+
+.intro-about-header {
+    font-family: Cornerstone;
+    font-size: 25px;
+    color: #E0E1DD;
+}
 
 
 /**
@@ -241,3 +294,16 @@
         }
     }
 }
+
+/* About page */
+.img-about {
+	width: 60%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+
+
+
+

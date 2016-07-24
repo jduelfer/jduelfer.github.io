@@ -1,9 +1,9 @@
 ---
 layout: 	post
-title: 		"First Blog Post"
+title: 		"Customizing Jekyll"
 date: 		2016-07-23 14:40:00 +0200
-categories:	testing
+categories:	Jekyll, Code
 ---
 
-Welcome to my first blog post!!
+
 
