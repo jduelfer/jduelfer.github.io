@@ -100,6 +100,8 @@ $ bazel test --linkopt=-headerpad_max_install_names \
     syntaxnet/... util/utf8/...
 {% endhighlight %}
 
+This will a really long time, but it's worth the wait. We are now ready to start building our system. Continue following my project!
+
 
 
 
