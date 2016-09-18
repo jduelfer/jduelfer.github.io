@@ -16,7 +16,7 @@ ____________________________________
 
 You can run the `demo.sh` file that comes packed with SyntaxNet immediately after building it. This is the famous Parsey McParseface, which is basically a Natural Language parser trained while you building SyntaxNet. You can pass any sentence into it and it will give you an ASCII tree representing the syntactic structure of the sentece. To do this, in terminal `cd` into `models/syntaxnet` and then execute the following command:
 
-{% hightlight bash %}
+{% highlight bash %}
 echo 'Bob brought the pizza to Alice.' | syntaxnet/demo.sh
 {% endhighlight %}
 
@@ -32,11 +32,14 @@ brought VBD ROOT
  +-- to IN prep
  |   +-- Alice NNP pobj
  +-- . . punct
-{% endhighligh% %}
+{% endhighlight %}
 
 You get an incredibly accurate parsing of a sentence in seconds. But having to execute from your command line everytime you want to parse a sentence isn't very practical, so let's put it into a Python script.
 
-### Parsey McParseface in a Python script
+### Python Script
+____________________________________
+
+<br>
 
 Assuming that you followed my last tutorial, you should have a directory structure like the following:
 {% highlight bash %}
@@ -47,7 +50,7 @@ Assuming that you followed my last tutorial, you should have a directory structu
 
 `cd` back to `your_directory` and create a new python file with `touch app.py`. Of course, printing out an ASCII tree that represents the syntactic structure isn't very practical for developing, so we want to get the parsed sentences into memory where we can do more analysis. In order to parse the tree, we are going to import [NLTK](http://www.nltk.org/), the Natural Language Toolkit for python that allows us to do much more processing with natural language than SyntaxNet alone. You need to install nltk with `pip install nltk`. For now, we are going to use its [Conll Corpus Reader](http://www.nltk.org/_modules/nltk/corpus/reader/conll.html) to parse the ASCII tree into a reeusable format. 
 
-We also want to create our own `demo.sh` file to call the parser. To do this, `cd` into `models/syntaxnet/syntaxnet` and `touch your_bash_file.sh`. If you are on OSX, the file probably won't have permissions yet, so you need to run `chmod +x your_bash_file.sh`. In this field, you can copy and paste the same code from `demo.sh`, or change any of the parameters that you want. Later, I will dive into this, but for now we are just going to use a copy of `demo.sh`:
+We also want to create our own `demo.sh` file to call the parser. To do this, `cd` into `models/syntaxnet/syntaxnet` and `touch your_bash_file.sh`. If you are on OSX, the file probably won't have permissions yet, so you need to run `chmod +x your_bash_file.sh`. In this file, you can copy and paste the same code from `demo.sh`, or change any of the parameters that you want. Later, I will dive into this, but for now we are just going to use a copy of `demo.sh`:
 
 {% highlight bash %}
 PARSER_EVAL=bazel-bin/syntaxnet/parser_eval
@@ -104,6 +107,8 @@ print(corpus_grid)
 {% endhighlight %}
 
 And there you go, you have wrapped Parsey McParseface in a reusable Python script ready for an application. 
+
+<br> 
 
 ### Usefulness (Warning: no code and mostly Linguistics talk)
 ________________________________

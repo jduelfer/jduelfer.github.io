@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-	background-color: #415A77;
+	background-color: $brand-color;
     //border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -48,7 +48,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: #415A77;
+        background-color: $brand-color;
         //border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -102,7 +102,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    background-color: #E0E1DD;
+    background-color: #ffffff;
 }
 
 .footer-heading {
@@ -202,10 +202,15 @@
     height: 100vh;
 }
 
+#intro-background {
+    background-image: url('/img/cabin.jpg');
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
 #intro-banner {
     height: 300px;
     width: auto;
-    background-color: #415A77;
+    //background-color: $brand-color;
     text-align: center;
 }
 
@@ -215,16 +220,16 @@
 }
 
 .intro-header {
-    padding-top: 50px;
+    padding-top: 75px;
     font-family: Cornerstone;
-    font-size: 40px;
-    color: #E0E1DD;
+    font-size: 50px;
+    color: $brand-color;
 }
 
 .intro-text {
-    font-family: Cornerstone;
+    
     font-size: 14px;
-    color: #E0E1DD;
+    color: $brand-color;
 }
 
 .intro-post-header {
@@ -232,7 +237,7 @@
     font-family: Cornerstone;
     font-size: 25px;
     text-align: center;
-    color: #415A77;
+    color: $brand-color;
 }
 
 #intro-about {
