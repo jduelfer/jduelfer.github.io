@@ -110,10 +110,18 @@ And there you go, you have wrapped Parsey McParseface in a reusable Python scrip
 
 <br> 
 
-### Usefulness (Warning: no code and mostly Linguistics talk)
+### Hypothesis
 ________________________________
 
-So what can a Parser do for us?
+How can parsing a sentence help us? 
+
+Human language is a rough approximation to what we know of the world. We see, feel, and experience the world around us, but our language falls short in explaining these experiences to other people, and even to ourselves! We define objects or even untangible concepts with a sequence of sounds. Every language around the world has a name for mother and father for example. But how do we express more abstract concepts?
+
+Sentences, or sequences of words, have an underlying property, called syntax. Whether this is a natural phenomenae or something innately human is up for discussion. However, we do know that changes in syntax changes the meaning of a sentence. "Jack loves Jenny" is certainly different than "Jenny loves Jack," as I'm sure we have all had that experience before.
+
+In another post, I will explain more in depth for interested Linguists into what I am doing, but for now, we can just assume that different Parts of Speech (I bet you haven't heard that word from high school), can give us insight into the underlying meaning of a sentence. Traditionally, the problem of Natural Langauge Processing (NLP) from the view of Computer Science has been a bag-of-words model, meaning that we can understand the meaning of sentences by just using probabilities of words within the sentence without really caring about their order.
+
+However, NLP ran into a speed bump and realized that we do actually need the underlying structure of the sentence. There is in fact, a reason that that structure exists. This is why I am using Parsey McParseface and am hope to show you in my next posts how useful this hypothesis may be.
 
 
 

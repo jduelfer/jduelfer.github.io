@@ -1,6 +1,6 @@
 ---
 layout: 	post
-title: 		"SyntaxNet Setup"
+title: 		"SyntaxNet: Setup"
 date: 		2016-07-23 14:40:00 +0200
 categories:	SyntaxNet, Tensorflow
 ---
