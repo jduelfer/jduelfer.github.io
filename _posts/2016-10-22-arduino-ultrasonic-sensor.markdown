@@ -15,7 +15,7 @@ It may not be the most intelligent little robot car yet, but it does OK at not r
 
 <br>
 
-### Preparatio
+### Preparation
 ____________________________
 
 Unfortunately, we are going to scratch a little bit of the work you did in the last post: the switch pin. I used it in the beginning of my last project to follow along with the Arduino tutorial for motor control, and decided to leave it in the first part of my project to help me debug if something went wrong. However, now I have removed that part of the circuit and shifted some of the connections to make it more compact.
