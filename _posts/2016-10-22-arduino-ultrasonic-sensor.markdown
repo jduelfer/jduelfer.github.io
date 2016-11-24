@@ -7,7 +7,7 @@ categories:	Arduino
 
 This is my second post detailing my Arduino Robot Car project. I will focus on using an ultrasonic distance sensor to detect obstacles and coming up with a simple algorithm to keep the car from crashing into stuff. Here is a quick video displaying the progress that can be achieved by the end of this tutorial.
 
-<iframe class="img-responsive video-responsive" src="https://www.youtube.com/embed/tJn0faFVa_A" frameborder="0"></iframe>
+<iframe class="img-responsive video-responsive" src="https://www.youtube.com/embed/tJn0faFVa_A" frameborder="0" allowfullscreen></iframe>
 
 <br>
 
