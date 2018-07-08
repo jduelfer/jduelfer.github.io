@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a Software Developer living in Barcelona and working in [Puck Solutions](https://www.facebook.com/puck.solutions/?fref=ts), a nice, young company with great workmates. Our team creates an application on top of Salesforce's [Force.com](https://en.wikipedia.org/wiki/Salesforce.com#Force.com) platform that allows private aviation companies to manage everything from ground operations, to sales and crew management. For front-end development, we use [Knockout.js](http://knockoutjs.com) and [JQuery](https://jquery.com), while for back-end we use [Apex](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm), Salesforce's java-like programming language. 
-
-My posts will be more about what I am doing on my own projects outside of work, whether they are on Python web apps, Natural Language Procesing or trying to build things with my [Arduino](https://www.arduino.cc/). I am also hoping to write about books I read, places I travel to, craft beer, etc. for anybody interested in those things as well.
+I am a Software Developer living in Barcelona and working in [Blackbird](http://www.blackbirdcrew.com/), a Startup focused on Salesforce Development and Consulting. My posts will be more about what I am doing on my own projects outside of work, whether they are on Python web apps, Natural Language Procesing or trying to build things with my [Arduino](https://www.arduino.cc/). 
 
 <br>
 
