@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
+<h2 id="postTitle" style="display:none">About</h2>
 I am a Software Developer living in Barcelona and working in [Blackbird](http://www.blackbirdcrew.com/), a Startup focused on Salesforce Development and Consulting. My posts will be more about what I am doing on my own projects outside of work, whether they are on Python web apps, Natural Language Procesing or trying to build things with my [Arduino](https://www.arduino.cc/). 
 
 <br>
